@@ -1,7 +1,7 @@
 # getClosest
 
 ```lua
-NCs.Player.getClosest()
+NCs.Player:getClosest()
 ```
 
 This function get the closet player.

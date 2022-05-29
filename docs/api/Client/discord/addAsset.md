@@ -1,5 +1,5 @@
 # addAsset
 
 ```lua
-NCs.Discord.addAsset(name, text)
+NCs.Discord:addAsset(name, text)
 ```

@@ -1,5 +1,5 @@
 # firstToUpper
 
 ```lua
-NCs.Strings.firstToUpper(stringToUpper)
+NCs.Strings:firstToUpper(stringToUpper)
 ```

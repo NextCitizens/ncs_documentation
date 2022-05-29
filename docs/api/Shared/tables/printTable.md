@@ -1,7 +1,7 @@
 # printTable
 
 ```lua
-NCs.Tables.printTable(tableToPrint)
+NCs.Tables:printTable(tableToPrint)
 ```
 
 This function print entire table.

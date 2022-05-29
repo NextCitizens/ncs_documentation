@@ -1,5 +1,5 @@
 # details
 
 ```lua
-NCs.Discord.details(details)
+NCs.Discord:details(details)
 ```

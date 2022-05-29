@@ -1,5 +1,5 @@
 # groupDigits
 
 ```lua
-NCs.Maths.groupDigits(digits)
+NCs.Maths:groupDigits(digits)
 ```
