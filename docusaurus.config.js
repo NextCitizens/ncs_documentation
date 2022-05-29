@@ -1,3 +1,6 @@
+
+
+
 // @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -29,22 +32,15 @@ const config = {
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          path: "framework",
+          routeBasePath: "framework"
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        theme: {
+          customCss: require.resolve("./src/css/custom.css")
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,10 +48,30 @@ const config = {
       }),
     ],
   ],
+  plugins: [[
+    "@docusaurus/plugin-content-docs",
+    {
+      id: "exampleserver",
+      path: "exampleserver",
+      routeBasePath: "exampleserver"
+    },
+  ],
+  [
+    "@docusaurus/plugin-content-docs",
+    {
+      id: "txrecipe",
+      path: "txrecipe",
+      routeBasePath: "txrecipe"
+    },
+  ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark"
+      },
       navbar: {
         title: '',
         logo: {
@@ -66,8 +82,24 @@ const config = {
 
           {
             type : 'doc',
-            docId: 'core',
-            label: 'Ncs_core', 
+            docId: 'home',
+            label: 'Framework', 
+            position: 'left'
+          },
+
+          {
+            type : 'doc',
+            docId: 'home',
+            docsPluginId: "exampleserver",
+            label: 'Example Server', 
+            position: 'left'
+          },
+
+          {
+            type : 'doc',
+            docId: 'home',
+            docsPluginId: "txrecipe",
+            label: 'TxRecipe', 
             position: 'left'
           },
 
@@ -76,6 +108,7 @@ const config = {
             label: 'Official Discord',
             position: 'right',
           },
+
           {
             href: 'https://github.com/NextCitizens',
             label: 'GitHub',

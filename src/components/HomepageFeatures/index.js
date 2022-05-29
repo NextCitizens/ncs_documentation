@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Ease of Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+NCS was designed from the core, to be the one-stop-shop for anything you need for your RP server. With simple, easy to use configs and d&d nature, It requires no coding knowledge to setup.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Community',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+NCS has a very large and helpful Community! They are always there to help you and guide you. Need a resouce that the team hasn't made? Don't worry, someone in the community probably has!
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Expandability',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+Extend or customize your sever with the endless configuration and community scripts that are available!
       </>
     ),
   },
