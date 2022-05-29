@@ -1,7 +1,7 @@
 # showKeyboard
 
 ```lua
-NCs.Player.showKeyboard(textEntry, exampleText, maxInputLength)
+NCs.Player:showKeyboard(textEntry, exampleText, maxInputLength)
 ```
 
 Open keyboard Input frame.

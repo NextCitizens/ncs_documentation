@@ -1,7 +1,7 @@
 # repair
 
 ```lua
-NCs.Vehicles.repair(vehicleEntity)
+NCs.Vehicles:repair(vehicleEntity)
 ```
 
 This function repair specified vehicle.

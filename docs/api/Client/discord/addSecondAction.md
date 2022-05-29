@@ -1,5 +1,5 @@
 # addSecondAction
 
 ```lua
-NCs.Discord.addSecondAction(label, url)
+NCs.Discord:addSecondAction(label, url)
 ```
