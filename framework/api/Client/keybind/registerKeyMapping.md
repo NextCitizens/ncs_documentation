@@ -18,6 +18,19 @@ This function saves binds. It supports the pressure and the release of the key
 ## Exemple
 
 ```lua
+-- basic exemple
+NCs:registerKeyMapping(
+    'F1',
+    'NCS_demo',
+    'NCS DEMO keybind API',
+    'keyboard',
+    function()
+        print('Button pressed !')
+    end,
+    nil
+)
+
+-- exemple with released !
 NCs:registerKeyMapping(
     'F1',
     'NCS_demo',
