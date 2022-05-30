@@ -13,12 +13,12 @@ This function saves binds. It supports the pressure and the release of the key
 | command          | string    | No      | -          |   Command name                                                       |
 | label          | string    | No      | -        | Command label                                                               |
 | onPressed          | function    | No      | -        | Function executed when the key is pressed                                                                |
-| onReleased          | function    | Yes      | -        | Function executed when the key is released                                                                |
+| onReleased          | function    | Yes      | nil        | Function executed when the key is released                                                                |
 
 ## Exemple
 
 ```lua
--- basic exemple
+-- basic exemple.
 NCs:registerKeyMapping(
     'F1',
     'NCS_demo',
@@ -26,11 +26,10 @@ NCs:registerKeyMapping(
     'keyboard',
     function()
         print('Button pressed !')
-    end,
-    nil
+    end
 )
 
--- exemple with released !
+-- exemple with released.
 NCs:registerKeyMapping(
     'F1',
     'NCS_demo',
