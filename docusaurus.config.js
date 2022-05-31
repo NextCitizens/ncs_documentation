@@ -87,21 +87,21 @@ const config = {
             position: 'left'
           },
 
-          {
-            type : 'doc',
-            docId: 'home',
-            docsPluginId: "exampleserver",
-            label: 'Example Server', 
-            position: 'left'
-          },
+          // {
+          //   type : 'doc',
+          //   docId: 'home',
+          //   docsPluginId: "exampleserver",
+          //   label: 'Example Server', 
+          //   position: 'left'
+          // },
 
-          {
-            type : 'doc',
-            docId: 'home',
-            docsPluginId: "txrecipe",
-            label: 'TxRecipe', 
-            position: 'left'
-          },
+          // {
+          //   type : 'doc',
+          //   docId: 'home',
+          //   docsPluginId: "txrecipe",
+          //   label: 'TxRecipe', 
+          //   position: 'left'
+          // },
 
           {
             href: 'https://discord.gg/N6f7Cejn9Q',

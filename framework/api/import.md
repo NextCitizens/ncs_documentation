@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Tutorial Documentation
+title: Imports Framework
 ---
 
 # FrameWork Installation:
