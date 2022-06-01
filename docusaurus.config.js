@@ -12,7 +12,7 @@ const config = {
   title: 'NextCitizens',
   tagline: 'NextCitizens is a powerful and optimized core for your FiveM server based on RolePlay.',
   url: 'https://NextCitizens.github.io/', // Your website URL
-  baseUrl: '/',
+  baseUrl: '/ncs_documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

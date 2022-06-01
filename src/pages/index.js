@@ -5,9 +5,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    
-    <Layout title="NextCitizens" description="NextCitizens is a powerful and optimized core for your FiveM server based on RolePlay.">
-      <meta http-equiv = "refresh" content = "0; url = /framework/home" />
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
+    <meta http-equiv = "refresh" content = "0; url = /ncs_documentation/framework/home" />
     </Layout>
   );
 }
