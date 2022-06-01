@@ -1,5 +1,5 @@
 # setup
 
 ```lua
-NCs.Discord.setup(appId)
+NCs.Discord:setup(appId)
 ```

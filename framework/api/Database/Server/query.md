@@ -1,5 +1,5 @@
 # query
 
 ```lua
-NCs.Database.query(query, parameters, cb)
+NCs.Database:query(query, parameters, cb)
 ```

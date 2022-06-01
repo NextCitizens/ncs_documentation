@@ -1,5 +1,5 @@
 # destroyCamera
 
 ```lua
-NCs.Camera.destroyCamera()
+NCs.Camera:destroyCamera()
 ```

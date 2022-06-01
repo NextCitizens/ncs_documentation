@@ -1,5 +1,5 @@
 # deleteObject
 
 ```lua
-NCs.Objects.deleteObject(objectId)
+NCs.Objects:deleteObject(objectId)
 ```
