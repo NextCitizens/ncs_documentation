@@ -27,7 +27,7 @@ $ yarn build
 
 ## Documentation
 
-[Official documentation of NextCitizens.](https://nextcitizens.net)
+[Official documentation of NextCitizens.](https://docs.nextcitizens.net)
 
 ## Discord
 
