@@ -1,5 +1,5 @@
 # roundNumber
 
 ```lua
-NCs.Maths.roundNumber(number, decimalPlace)
+NCs.Maths:roundNumber(number, decimalPlace)
 ```

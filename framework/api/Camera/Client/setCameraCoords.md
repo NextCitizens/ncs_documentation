@@ -1,5 +1,5 @@
 # setCameraCoords
 
 ```lua
-NCs.Camera.setCameraCoords(coords)
+NCs.Camera:setCameraCoords(coords)
 ```

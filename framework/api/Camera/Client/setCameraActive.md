@@ -1,5 +1,5 @@
 # setCameraActive
 
 ```lua
-NCs.Camera.setCameraActive(bool)
+NCs.Camera:setCameraActive(bool)
 ```

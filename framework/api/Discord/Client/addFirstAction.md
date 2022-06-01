@@ -1,5 +1,5 @@
 # addFirstAction
 
 ```lua
-NCs.Discord.addFirstAction(label, url)
+NCs.Discord:addFirstAction(label, url)
 ```
