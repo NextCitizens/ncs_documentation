@@ -3,3 +3,9 @@
 ```lua
 NCs.Database:async_insert(query, parameters, cb)
 ```
+
+### Examples
+
+```lua
+-- TODO
+```
