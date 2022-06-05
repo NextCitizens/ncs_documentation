@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setMaxHealth(pedId, value)
 ```
+Set the max health to the specified ped.
 
 ### Arguments
 | Argument | Type   | Optional   | Default | Explanation                          |

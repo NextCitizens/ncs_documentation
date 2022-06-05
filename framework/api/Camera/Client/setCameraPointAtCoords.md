@@ -3,6 +3,7 @@
 ```lua
 NCs.Camera:setCameraPointAtCoords(coords)
 ```
+Set where the camera aim.
 
 ### Arguments
 | Argument  | Type    | Optional | Default | Explanation                             |

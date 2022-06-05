@@ -3,6 +3,7 @@
 ```lua
 NCs.Vehicles:delete(vehicleId)
 ``` 
+Delete the specified vehicle.
 
 ### Arguments
 | Argument  | Type   | Optional   | Default | Explanation           |

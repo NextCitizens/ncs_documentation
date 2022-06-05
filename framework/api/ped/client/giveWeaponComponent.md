@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:giveWeaponComponent(pedId, weaponName, componentName)
 ```
+Give weapon component to the specified ped.
 
 ### Arguments
 | Argument      | Type   | Optional   | Default | Explanation                |

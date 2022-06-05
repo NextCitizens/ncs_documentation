@@ -1,8 +1,9 @@
 # setInvincible
 
 ```lua
-NCs.Ped:setInvincible(entityId, state)
+NCs.Ped:setInvincible(pedId, state)
 ```
+Set the speficied ped invincible or not.
 
 ### Arguments
 | Argument | Type    | Optional   | Default | Explanation                                |

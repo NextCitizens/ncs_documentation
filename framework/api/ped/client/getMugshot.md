@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:getMugshot(pedId, transparentBackground)
 ```
+Get the mugShot of the specified ped.
 
 ### Arguments
 | Argument              | Type      | Optional   | Default | Explanation                                               |

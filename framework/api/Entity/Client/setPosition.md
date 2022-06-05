@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setPosition(entityId, coords)
 ```
+Set the position of the specified entity.
 
 ### Arguments
 | Argument | Type    | Optional | Default | Explanation                               |

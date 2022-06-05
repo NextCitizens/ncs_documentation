@@ -3,6 +3,7 @@
 ```lua
 NCs.Commands:registerPermissionCommand(command, permission, handler)
 ```
+Register a simple permission for the specified command.
 
 ### Arguments
 | Argument   | Type     | Optional | Default | Explanation                       |

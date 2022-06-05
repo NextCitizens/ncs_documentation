@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:playAnimation(pedId, dict, anim, flag, blendin, blendout, playbackRate, duration)
 ```
+Specified ped play specified animation.
 
 ### Arguments
 | Argument     | Type   | Optional   | Default | Explanation                         |

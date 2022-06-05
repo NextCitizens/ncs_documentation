@@ -3,6 +3,7 @@
 ```lua
 NCs.Commands:registerConsoleCommand(command, handler)
 ```
+Register a simple command in console.
 
 ### Arguments
 | Argument | Type     | Optional | Default | Explanation             |

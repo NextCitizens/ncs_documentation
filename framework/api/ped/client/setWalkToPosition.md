@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setWalkToPosition(pedId, coords, speed, duration, heading, distanceToSlide)
 ```
+The specified ped walk/run to the specified position.
 
 ### Arguments
 | Argument        | Type   | Optional   | Default | Explanation                         |

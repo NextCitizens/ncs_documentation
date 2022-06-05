@@ -3,6 +3,7 @@
 ```lua
 NCs.Camera:setCameraCoords(coords)
 ```
+Change the coords of the specified camera.
 
 ### Arguments
 | Argument | Type    | Optional | Default | Explanation                 |

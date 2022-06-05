@@ -3,6 +3,7 @@
 ```lua
 NCs.Camera:setCameraParams(coords, rotationX, rotationY, rotationZ, fov)
 ```
+Change params of the specified camera.
 
 ### Arguments
 | Argument  | Type    | Optional | Default | Explanation                    |

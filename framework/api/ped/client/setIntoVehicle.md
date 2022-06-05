@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setIntoVehicle(pedId, vehicleId, seat)
 ```
+The specified weapon get into specified vehicle on the specified seat.
 
 ### Arguments
 | Argument  | Type   | Optional   | Default | Explanation                  |

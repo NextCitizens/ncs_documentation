@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setPosition(pedId, coords, keepVehicle)
 ```
+Set the position to the specified ped.
 
 ### Arguments
 | Argument    | Type    | Optional   | Default | Explanation                                            |

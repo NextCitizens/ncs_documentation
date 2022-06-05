@@ -3,6 +3,7 @@
 ```lua
 NCs.Objects:deleteObject(objectId)
 ```
+Delete the specified object.
 
 ### Arguments
 | Argument | Type    | Optional | Default | Explanation                              |

@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:removeWeapon(pedId, weaponName)
 ```
+The specified PED has the specified weapon removed
 
 ### Arguments
 | Argument   | Type   | Optional   | Default | Explanation             |

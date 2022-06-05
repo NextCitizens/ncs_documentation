@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:hasWeaponComponent(pedId, weaponName, componentName)
 ```
+Check if the specified ped has the specified weapon component on the specified weapon. (lot of specified)
 
 ### Arguments
 | Argument      | Type    | Optional   | Default | Explanation               |

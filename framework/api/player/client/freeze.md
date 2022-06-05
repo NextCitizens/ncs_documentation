@@ -3,6 +3,7 @@
 ```lua
 NCs.Player:freeze(pedId, state)
 ```
+Set the freeze state to the specified ped.
 
 ### Arguments
 | Argument     | Type    | Optional   | Default | Explanation                              |

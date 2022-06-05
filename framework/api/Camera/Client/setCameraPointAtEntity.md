@@ -3,6 +3,7 @@
 ```lua
 NCs.Camera:setCameraPointAtEntity(entityId, offsetX, offsetY, offsetZ)
 ```
+Set at what entity the specified aim.
 
 ### Arguments
 | Argument | Type   | Optional | Default | Explanation                                     |

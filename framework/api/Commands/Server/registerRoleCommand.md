@@ -3,6 +3,7 @@
 ```lua
 NCs.Commands:registerRoleCommand(command, handler)
 ```
+Register a simple role.
 
 ### Arguments
 | Argument | Type     | Optional | Default | Explanation          |

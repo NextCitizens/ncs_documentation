@@ -3,6 +3,7 @@
 ```lua
 NCs.Camera:setCameraActive(bool)
 ```
+Set the camera active or not active.
 
 ### Arguments
 | Argument      | Type    | Optional | Default | Explanation                     |

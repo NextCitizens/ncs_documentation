@@ -3,6 +3,7 @@
 ```lua
 NCs.Vehicles:lockVehicle(vehicleId)
 ``` 
+Lock door of the specified vehicle.
 
 ### Arguments
 | Argument  | Type   | Optional   | Default | Explanation           |

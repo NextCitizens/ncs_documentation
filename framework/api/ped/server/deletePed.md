@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:deletePed(pedId)
 ```
+Delete the specified ped
 
 ### Examples
 

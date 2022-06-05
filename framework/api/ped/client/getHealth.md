@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:getHealth(pedId)
 ```
+Get the health of the specified ped.
 
 ### Arguments
 | Argument | Type    | Optional | Default | Explanation                      |

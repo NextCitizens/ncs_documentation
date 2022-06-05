@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setVisible(entityId, state)
 ```
+Set the visible state of the specified entity.
 
 ### Arguments
 | Argument | Type    | Optional | Default | Explanation                        |

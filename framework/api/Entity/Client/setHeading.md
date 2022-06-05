@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setHeading(entityId, heading)
 ```
+Set the heading of the specified entity.
 
 ### Arguments
 | Argument | Type   | Optional | Default | Explanation           |

@@ -3,6 +3,7 @@
 ```lua
 NCs.Vehicles:getPlate(vehicleId)
 ``` 
+Get the plate of the specified vehicle.
 
 ### Arguments
 | Argument  | Type   | Optional   | Default | Explanation           |

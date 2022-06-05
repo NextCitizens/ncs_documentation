@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setHealth(pedId, value)
 ```
+Set the health of the specified entity.
 
 ### Arguments
 | Argument | Type   | Optional | Default | Explanation           |

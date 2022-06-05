@@ -3,7 +3,8 @@
 ```lua
 NCs.Ped:getClosetPed()
 ```
-Returns closest ped id.
+Get the closest ped.
+Return the ped ID.
 
 ### Arguments
 <span style="color : #FF7659;">No argument.</span>

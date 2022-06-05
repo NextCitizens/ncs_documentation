@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:leaveVehicle(pedId, instant)
 ```
+Specified ped leave any vehicle.
 
 ### Arguments
 | Argument | Type    | Optional   | Default | Explanation                            |

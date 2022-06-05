@@ -3,6 +3,7 @@
 ```lua
 NCs.Player:setModel(modelName)
 ```
+Set the specified model to the player.
 
 ### Arguments
 | Argument  | Type   | Optional   | Default | Explanation            |

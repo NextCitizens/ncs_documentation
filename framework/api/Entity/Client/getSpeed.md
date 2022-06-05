@@ -3,7 +3,7 @@
 ```lua
 NCs.Ped:getSpeed(entityId)
 ```
-Return the speed of the specified entity in km/h.
+Get the speed of the specified entity in km/h.
 
 ### Arguments
 | Argument | Type   | Optional | Default | Explanation           |

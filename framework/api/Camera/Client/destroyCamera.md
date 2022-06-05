@@ -3,6 +3,7 @@
 ```lua
 NCs.Camera:destroyCamera()
 ```
+Destroy the specified camera.
 
 ### Arguments
 

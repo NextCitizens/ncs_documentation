@@ -3,6 +3,7 @@
 ```lua
 NCs.Player:getClosest()
 ```
+Get the closest player.
 
 ### Arguments
 <span style="color : #FF7659;">No argument.</span>

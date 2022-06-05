@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:getPosition(entityId)
 ```
+Get the position of the specified entity.
 
 ### Arguments
 | Argument | Type   | Optional | Default | Explanation           |

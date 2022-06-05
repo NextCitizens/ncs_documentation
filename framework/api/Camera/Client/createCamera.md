@@ -3,7 +3,7 @@
 ```lua
 NCs.Camera:createCamera(cameraCoords, cameraHeading)
 ```
-This function create a simple camera.
+Create a simple camera.
 
 ### Arguments
 | Argument      | Type    | Optional | Default | Explanation                 |

@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:driveVehicle(pedId)
 ```
+Get if the ped is driving a vehicle.
 
 ### Arguments
 | Argument | Type    | Optional | Default | Explanation        |

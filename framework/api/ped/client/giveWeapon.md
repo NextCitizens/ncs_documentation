@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:giveWeapon(pedId, weaponName, ammo, isHidden, forceInHand)
 ```
+Give a weapon to the specified ped.
 
 ### Arguments
 | Argument    | Type    | Optional   | Default | Explanation                                      |

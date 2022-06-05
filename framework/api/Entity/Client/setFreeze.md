@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:setFreeze(entityId, state)
 ```
+Set the freeze state of the specified entity.
 
 ### Arguments
 | Argument | Type    | Optional | Default | Explanation                      |
