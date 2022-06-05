@@ -2,5 +2,12 @@
 
 
 ```lua
-NCs.Vehicles:repair(vehicleEntity)
+NCs.Vehicles:repair(vehicleId)
 ``` 
+
+### Examples
+
+```lua
+local vehicle = GetVehiclePedIsIn(PlayerPedId())
+NCs.Vehicle:repair(vehicle)
+```

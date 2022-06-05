@@ -1,5 +1,11 @@
 # setInvincible
 
 ```lua
-NCs.Ped:setInvincible(pedId, state)
+NCs.Ped:setInvincible(entityId, state)
+```
+
+### Examples
+```lua
+local client = PlayerPedId()
+NCs.Ped.setInvincible(client, true)
 ```

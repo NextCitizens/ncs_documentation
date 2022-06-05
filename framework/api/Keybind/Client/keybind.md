@@ -3,3 +3,9 @@
 ```lua
 NCs.Keybind:registerKeyMapping(key, command, label, input, onPressed, onReleased)
 ```
+
+### Examples
+
+```lua
+TODO
+```

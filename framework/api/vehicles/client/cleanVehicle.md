@@ -1,5 +1,12 @@
 # cleanVehicle
 
 ```lua
-NCs.Vehicles:clean(vehicleEntity)
+NCs.Vehicles:clean(vehicleId)
 ``` 
+
+### Examples
+
+```lua
+local vehicle = GetVehiclePedIsIn(PlayerPedId())
+NCs.Vehicle:clean(vehicle)
+```
