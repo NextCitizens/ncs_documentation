@@ -1,7 +1,7 @@
 # resetAlpha
 
 ```lua
-NCs.Ped:resetAlpha(pedId)
+NCs.Ped:resetAlpha(entityId)
 ```
 
 ### Examples

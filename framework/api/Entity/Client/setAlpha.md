@@ -1,7 +1,7 @@
 # setAlpha
 
 ```lua
-NCs.Ped:setAlpha(pedId, value)
+NCs.Ped:setAlpha(entityId, value)
 ```
 
 ### Examples

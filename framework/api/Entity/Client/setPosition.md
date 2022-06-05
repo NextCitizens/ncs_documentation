@@ -1,7 +1,7 @@
 # setPosition
 
 ```lua
-NCs.Ped:setPosition(pedId, coords)
+NCs.Ped:setPosition(entityId, coords)
 ```
 
 ### Examples

@@ -1,7 +1,7 @@
 # setFreeze
 
 ```lua
-NCs.Ped:setFreeze(pedId, state)
+NCs.Ped:setFreeze(entityId, state)
 ```
 
 ### Examples

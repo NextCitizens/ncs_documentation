@@ -1,7 +1,7 @@
 # setInvincible
 
 ```lua
-NCs.Ped:setInvincible(pedId, state)
+NCs.Ped:setInvincible(entityId, state)
 ```
 
 ### Examples

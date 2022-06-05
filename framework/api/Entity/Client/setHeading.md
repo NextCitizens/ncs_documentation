@@ -1,7 +1,7 @@
 # setHeading
 
 ```lua
-NCs.Ped:setHeading(pedId, heading)
+NCs.Ped:setHeading(entityId, heading)
 ```
 
 ### Examples

@@ -1,7 +1,7 @@
 # setVisible
 
 ```lua
-NCs.Ped:setVisible(pedId, state)
+NCs.Ped:setVisible(entityId, state)
 ```
 
 ### Examples
