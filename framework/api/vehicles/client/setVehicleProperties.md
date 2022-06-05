@@ -5,6 +5,12 @@
 NCs.Vehicles:setProperties(vehicleId, props)
 ``` 
 
+### Arguments
+| Argument  | Type   | Optional   | Default | Explanation          |
+|-----------|--------|------------|---------|----------------------|
+| vehicleId | number | false      | -       | The ID of the vehicle |
+| props     | table  | false      | -       | Props to put         |
+
 ### Examples
 
 ```lua

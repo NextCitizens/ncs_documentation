@@ -4,6 +4,12 @@
 NCs.Vehicles:getClosest(coords)
 ``` 
 
+### Arguments
+| Argument | Type    | Optional   | Default | Explanation                             |
+|----------|---------|------------|---------|-----------------------------------------|
+| coords   | vector3 | false      | -       | The position to get the closest vehicle |
+
+
 ### Examples
 
 ```lua

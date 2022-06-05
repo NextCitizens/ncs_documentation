@@ -4,6 +4,11 @@
 NCs.Ped:getPosition(entityId)
 ```
 
+### Arguments
+| Argument | Type   | Optional | Default | Explanation           |
+|----------|--------|----------|---------|-----------------------|
+| entityId | number | false    | -       | The ID of the entity. |
+
 ### Examples
 ```lua
 local client = PlayerPedId()

@@ -5,6 +5,12 @@
 NCs.Vehicles:getProperties(vehicleId)
 ``` 
 
+### Arguments
+| Argument  | Type   | Optional   | Default | Explanation           |
+|-----------|--------|------------|---------|-----------------------|
+| vehicleId | number | false      | -       | The ID of the vehicle |
+
+
 ### Examples
 
 ```lua

@@ -4,6 +4,11 @@
 NCs.Player:getIdentifier(playerSrc)
 ``` 
 
+### Arguments
+| Argument  | Type   | Optional   | Default | Explanation                      |
+|-----------|--------|------------|---------|----------------------------------|
+| playerSrc | number | false      | -       | The source to get his identifier |
+
 ### Examples
 ```lua
 RegisterCommand('name', function(source)

@@ -4,6 +4,11 @@
 NCs.Player:getName(playerSrc)
 ```
 
+### Arguments
+| Argument  | Type   | Optional   | Default | Explanation                |
+|-----------|--------|------------|---------|----------------------------|
+| playerSrc | number | false      | -       | The source to get his name |
+
 ### Examples
 ```lua
 RegisterCommand('name', function(source)

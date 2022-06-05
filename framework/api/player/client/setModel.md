@@ -4,6 +4,11 @@
 NCs.Player:setModel(modelName)
 ```
 
+### Arguments
+| Argument  | Type   | Optional   | Default | Explanation            |
+|-----------|--------|------------|---------|------------------------|
+| modelName | string | false      | -       | The name of the model. |
+
 ### Examples
 ```lua
 NCs.Player:setModel('a_c_chop')

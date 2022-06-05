@@ -4,6 +4,12 @@
 NCs.Ped:setAlpha(entityId, value)
 ```
 
+### Arguments
+| Argument | Type   | Optional | Default | Explanation           |
+|----------|--------|----------|---------|-----------------------|
+| entityId | number | false    | -       | The ID of the entity. |
+| value    | number | false    | -       | Value of the alpha.   |
+
 ### Examples
 ```lua
 local client = PlayerPedId()

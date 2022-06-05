@@ -4,6 +4,11 @@
 NCs.Player:showSubtitle(text)
 ``` 
 
+### Arguments
+| Argument | Type   | Optional   | Default | Explanation         |
+|----------|--------|------------|---------|---------------------|
+| text     | string | false      | -       | The text to display |
+
 ### Examples
 ```lua
 NCs.Player:showSubtitle("text")

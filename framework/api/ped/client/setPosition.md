@@ -4,6 +4,13 @@
 NCs.Ped:setPosition(pedId, coords, keepVehicle)
 ```
 
+### Arguments
+| Argument    | Type    | Optional   | Default | Explanation                                            |
+|-------------|---------|------------|---------|--------------------------------------------------------|
+| pedId       | number  | false      | -       | The ID of the ped.                                     |
+| coords      | vector3 | false      | -       | Position to teleport                                   |
+| keepVehicle | boolean | false      | false   | True = Vehicle teleport / False = Vehicle not teleport |
+
 ### Examples
 ```lua
 local client = PlayerPedId()

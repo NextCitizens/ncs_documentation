@@ -4,6 +4,11 @@
 NCs.Player:showFloatingHelpNotification(text, pos)
 ```
 
+### Arguments
+| Argument | Type    | Optional   | Default | Explanation                      |
+|----------|---------|------------|---------|----------------------------------|
+| text     | string  | false      | -       | Text to display                  |
+| pos      | vector3 | false      | -       | The position of the notification |
 
 ### Examples
 ```lua

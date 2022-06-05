@@ -5,6 +5,9 @@ NCs.Ped:getClosetPed()
 ```
 Returns closest ped id.
 
+### Arguments
+<span style="color : #FF7659;">No argument.</span>
+
 ### Examples
 ```lua
 local ped = NCs.Ped:getClosestPed()

@@ -4,6 +4,11 @@
 NCs.Discord:setDetails(details)
 ```
 
+### Arguments
+| Argument | Type   | Optional | Default | Explanation         |
+|----------|--------|----------|---------|---------------------|
+| details  | string | false    | -       | Details of the APP. |
+
 ### Examples
 
 ```lua

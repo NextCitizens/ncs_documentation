@@ -4,6 +4,16 @@
 NCs.Ped:setWalkToPosition(pedId, coords, speed, duration, heading, distanceToSlide)
 ```
 
+### Arguments
+| Argument        | Type   | Optional   | Default | Explanation                         |
+|-----------------|--------|------------|---------|-------------------------------------|
+| pedId           | number | false      | -       | The ID of the ped.                  |
+| coords          | string | false      | -       | Position where ped will go.         |
+| speed           | string | false      | -       | Speed of the PED.                   |
+| duration        | number | false      | -       | -                                   |
+| heading         | number | false      | -       | Heading of the PED during distance. |
+| distanceToSlide | number | false      | -       | -                                   |
+
 ### Examples
 ```lua
 local client = PlayerPedId()
