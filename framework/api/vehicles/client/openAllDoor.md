@@ -1,12 +1,12 @@
-# cleanVehicle
+# openAllDoor
 
 ```lua
-NCs.Vehicles:clean(vehicleId)
+NCs.Vehicles:openAllDoor(vehicleId)
 ``` 
 
 ### Examples
 
 ```lua
 local vehicle = GetVehiclePedIsIn(PlayerPedId())
-NCs.Vehicle:clean(vehicle)
+NCs.Vehicle:openAllDoor(vehicle)
 ```

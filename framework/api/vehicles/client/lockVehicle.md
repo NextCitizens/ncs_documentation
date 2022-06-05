@@ -1,12 +1,12 @@
-# cleanVehicle
+# lockVehicle
 
 ```lua
-NCs.Vehicles:clean(vehicleId)
+NCs.Vehicles:lockVehicle(vehicleId)
 ``` 
 
 ### Examples
 
 ```lua
 local vehicle = GetVehiclePedIsIn(PlayerPedId())
-NCs.Vehicle:clean(vehicle)
+NCs.Vehicle:lockVehicle(vehicle)
 ```
