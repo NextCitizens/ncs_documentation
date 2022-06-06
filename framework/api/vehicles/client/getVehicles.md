@@ -6,7 +6,7 @@ NCs.Vehicles:getVehicles()
 ``` 
 
 ### Arguments
-<span style="color : #FF7659;">No argument.</span>
+No argument.
 
 ### Examples
 
