@@ -4,6 +4,11 @@
 NCs.Player:showHelpNotification(text)
 ``` 
 
+### Arguments
+| Argument | Type   | Optional   | Default | Explanation     |
+|----------|--------|------------|---------|-----------------|
+| text     | string | false      | -       | Text to display |
+
 ### Examples
 ```lua
 NCs.Player:showHelpNotification("Hello World!")

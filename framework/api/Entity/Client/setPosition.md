@@ -3,6 +3,13 @@
 ```lua
 NCs.Ped:setPosition(entityId, coords)
 ```
+Set the position of the specified entity.
+
+### Arguments
+| Argument | Type    | Optional | Default | Explanation                               |
+|----------|---------|----------|---------|-------------------------------------------|
+| entityId | number  | false    | -       | The ID of the entity.                     |
+| coords   | vector3 | false    | -       | Position where you want to entity will be |
 
 ### Examples
 ```lua

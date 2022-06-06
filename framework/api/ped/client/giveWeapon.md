@@ -3,6 +3,16 @@
 ```lua
 NCs.Ped:giveWeapon(pedId, weaponName, ammo, isHidden, forceInHand)
 ```
+Give a weapon to the specified ped.
+
+### Arguments
+| Argument    | Type    | Optional   | Default | Explanation                                      |
+|-------------|---------|------------|---------|--------------------------------------------------|
+| pedId       | number  | false      | -       | The ID of the ped.                               |
+| weaponName  | string  | false      | -       | The Name of the weapon.                          |
+| ammo        | number  | false      | -       | The Quantity of the ammo.                        |
+| isHidden    | boolean | false      | -       | If player see the weapon in the weapon selector. |
+| forceInHand | boolean | false      | -       | If weapon goes directly in hand.                 |
 
 ### Examples
 ```lua

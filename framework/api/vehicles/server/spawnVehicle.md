@@ -5,6 +5,16 @@
 NCs.Vehicles:spawn(modelName, x, y, z, heading, callback)
 ``` 
 
+### Arguments
+| Argument  | Type     | Optional   | Default | Explanation              |
+|-----------|----------|------------|---------|--------------------------|
+| modelName | string   | false      | -       | The Model of the vehicle |
+| x         | number   | false      | -       | X Position               |
+| y         | number   | false      | -       | Y Position               |
+| z         | number   | false      | -       | Z Position               |
+| heading   | number   | false      | -       | Heading of the vehicle   |
+| callback  | function | false      | -       | -                        |
+
 ### Examples
 
 ```lua

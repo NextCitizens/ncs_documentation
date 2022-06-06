@@ -4,6 +4,12 @@
 NCs.Player:spawn(coords, callback)
 ```
 
+### Arguments
+| Argument | Type     | Optional   | Default | Explanation                           |
+|----------|----------|------------|---------|---------------------------------------|
+| coords   | vector3  | false      | -       | The position where the player will be |
+| callback | function | false      | -       | -                                     |
+
 ### Examples
 ```lua
 RegisterCommand('spawn', function(source, args)

@@ -3,6 +3,7 @@
 ```lua
 NCs.Ped:spawnPed(modelName, x, y, z, heading)
 ```
+Spawn a simple ped in the world.
 
 ### Examples
 

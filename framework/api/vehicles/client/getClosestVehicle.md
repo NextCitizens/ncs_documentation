@@ -3,6 +3,13 @@
 ```lua
 NCs.Vehicles:getClosest(coords)
 ``` 
+Get the closest vehicle.
+
+### Arguments
+| Argument | Type    | Optional   | Default | Explanation                             |
+|----------|---------|------------|---------|-----------------------------------------|
+| coords   | vector3 | false      | -       | The position to get the closest vehicle |
+
 
 ### Examples
 

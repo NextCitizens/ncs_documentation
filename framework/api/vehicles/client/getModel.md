@@ -2,7 +2,14 @@
 
 ```lua
 NCs.Vehicles:getModel(vehicleId)
-``` 
+```
+Get the model of the specifide vehicle.
+
+### Arguments
+| Argument  | Type   | Optional   | Default | Explanation           |
+|-----------|--------|------------|---------|-----------------------|
+| vehicleId | number | false      | -       | The ID of the vehicle |
+
 
 ### Examples
 

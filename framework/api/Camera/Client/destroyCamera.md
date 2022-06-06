@@ -3,6 +3,11 @@
 ```lua
 NCs.Camera:destroyCamera()
 ```
+Destroy the specified camera.
+
+### Arguments
+
+<span style="color : #FF7659;">No argument.</span>
 
 ### Examples
 ```lua
