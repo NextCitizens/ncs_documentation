@@ -10,10 +10,14 @@ NCs.Player:showStatsNotification(icon, title, subTitle, oldProgress, newProgress
 | icon           | string | false      | -       | The icon of the notification     |
 | title          | string | false      | -       | The title of the notification    |
 | subTitle       | string | false      | -       | The subtitle of the notification |
-| oldProgress    | number | false      | -       | -                                |
-| newProgress    | number | false      | -       | -                                |
+| oldProgress    | number | false      | -       | Value between 0 - 100            |
+| newProgress    | number | false      | -       | Value between 0 - 100            |
 
 ### Examples
 ```lua
--- TODO
+RegisterNetEvent('onPlayerKill')
+AddEventHandler('onPlayerKill', function()
+  local mugshot_txd = NCs.Ped.getMugshot(PlayerPedId(), false)
+  NCs.Player:showStatsNotification(mugshot_txd, 'Kills', ('%s/100'):format(actualKills), actualKills, actualKills+1)
+end)
 ```
