@@ -7,6 +7,6 @@ title: Imports Framework
 
 ## How to import NextCitizens:
 
-```lua 
-local NCs = exports["ncs_core"]:getLibrary() -- "ncs_core": Framework ressource name
+```lua
+local NCS = exports["ncs_core"]:getLibrary() -- "ncs_core": Framework resource name
 ```
