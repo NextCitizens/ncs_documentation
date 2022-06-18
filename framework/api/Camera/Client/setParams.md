@@ -1,3 +1,5 @@
+# setParams
+
 ```lua
 NCS.Camera:setParams(position, rotationX, rotationY, rotationZ, fov)
 ```

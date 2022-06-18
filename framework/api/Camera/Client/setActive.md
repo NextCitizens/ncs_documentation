@@ -1,3 +1,5 @@
+# setActive
+
 ```lua
 NCS.Camera:destroy()
 ```

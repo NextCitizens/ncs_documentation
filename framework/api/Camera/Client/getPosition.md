@@ -1,3 +1,5 @@
+# getPosition
+
 ```lua
 NCS.Camera:getPosition()
 ```

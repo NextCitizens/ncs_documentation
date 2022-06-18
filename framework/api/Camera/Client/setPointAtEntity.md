@@ -1,3 +1,5 @@
+# setPointAtEntity
+
 ```lua
 NCS.Camera:setPointAtEntity(entityId, offsetX, offsetY, offsetZ)
 ```

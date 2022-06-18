@@ -1,3 +1,5 @@
+# destroy
+
 ```lua
 NCS.Camera:destroy()
 ```

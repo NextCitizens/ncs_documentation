@@ -1,3 +1,5 @@
+# isActive
+
 ```lua
 NCS.Camera:isActive()
 ```

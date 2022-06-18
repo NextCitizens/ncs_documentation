@@ -1,3 +1,5 @@
+# setPointAtCoords
+
 ```lua
 NCS.Camera:setPointAtCoords(position)
 ```

@@ -1,3 +1,5 @@
+# setPosition
+
 ```lua
 NCS.Camera:setPosition(position)
 ```
