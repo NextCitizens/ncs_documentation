@@ -1,7 +1,7 @@
-# setFuel
+# setProperties
 
 ```lua
-NCs.Vehicles:setFuel(vehicleId, fuel)
+NCs.Vehicles:setProperties(vehicleId, props)
 ```
 
 ### Arguments
@@ -9,11 +9,15 @@ NCs.Vehicles:setFuel(vehicleId, fuel)
 | Argument  | Type   | Optional | Default | Explanation           |
 | --------- | ------ | -------- | ------- | --------------------- |
 | vehicleId | number | false    | -       | The ID of the vehicle |
-| fuel      | number | false    | -       | Value of fuel         |
+| props     | table  | false    | -       | Props to put          |
 
 ### Examples
 
 ```lua
 local vehicle = GetVehiclePedIsIn(PlayerPedId())
-NCs.Vehicle:setFuel(vehicle, 5.0)
+NCs.Vehicle:setProperties(vehicle, {
+    bodyHealth = 150.0,
+    dirtLevel = 10.0,
+    fuelLevel = 50.0 -- Use NCs.Vehicle:setFuel instead.
+})
 ```
